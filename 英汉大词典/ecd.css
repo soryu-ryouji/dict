@@ -1,0 +1,673 @@
+
+.hw{
+    font-size: 1.2em;
+
+    font-weight: bold;
+    padding-right:0.3em;
+}
+.name{
+    font-size: 1.2em;
+    color: #0B5BC4;
+    font-weight: bold;
+    padding-right:0.3em;
+}
+.pos{
+
+    font-style:italic;
+    font-weight:bolder;
+    text-decoration:none;
+    color: #8f0610 !important;
+}
+
+.se2{
+    display:list-item;
+    list-style: decimal inside;
+    margin-bottom: 0.5em;
+    }
+
+span.df {
+    font-size: 105%;
+}
+    
+
+.derivative .posg{
+    display:inline;
+}
+.derivative .l::before{
+    content:"\21D2 ";
+    color:#8f0610 !important;;
+}
+.se2 .sj, .ge, .reg, .gg{
+    color: #8f0610 !important;
+    font-family: sans-serif;
+}
+.syllabified{
+    font-weight:normal;
+    font-size:80%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0.3em;
+    color: #369;
+}
+a{
+    text-decoration: none;
+    padding: 0 0.2em;
+    border-bottom: 1px dotted;
+    color: #369;
+}
+.i, i {
+    
+    text-decoration: underline;
+    color: #369;
+}
+.phrase .l{
+    font-weight:bold;
+    font-family: "Merriweather",Georgia,serif;
+    font-style: italic;
+}
+.subentryblock {
+    border-bottom: 1px dashed gray;
+	border-top: 1px dashed gray;
+    margin-top: 6px;
+    margin-bottom: 6px;
+	padding-top:6px;
+	padding-bottom: 6px;
+}
+.phrase, .note{
+    line-height: 135%;
+     /*Georgia, Arial, Verdana, "Microsoft YaHei","Microsoft JhengHei", sans-serif;*/
+}
+.note{
+    background-color: #f2fff2;
+}
+.mainentry{
+    font-size:1em;
+    font-weight: bold;
+    color:444444;
+    margin:0.2em 0.2em;
+    font-family: Verdana, Arial, Georgia, "Microsoft YaHei","Microsoft JhengHei", sans-serif;
+}
+.etym{
+    margin:0.5em 0.2em;
+    background-color: #FAFAFA;
+    padding:0.5em 0.2em; 
+    font-size:90%;   
+}
+.etym::before{
+    content:"ETYMOLOGY: ";
+    font-weight:bold;
+    color: #8B4513;
+    font-size:95%;
+}
+.eg{
+    display:block;
+    color: #757575;
+    margin-left: 0.5em;
+    /* margin-bottom: 0.2em; */
+    line-height: 120%;
+}
+.eg::before:{
+	content: "\27A4"
+}
+.ex{
+    color: #369;
+    /* padding-right:0.5em; */
+}
+.eg.ex{
+	padding-left:0.3em;
+}
+
+.pr{
+    padding:0 0.5em;
+    font-family: sans-serif;
+}
+.pr::before{
+    content:"/";
+}
+.pr::after{
+    content:"/";
+}
+.sj::before{content: "<";}
+.sj::after{
+    content: ">";
+}
+
+.la::before{
+    content:"\003C";
+}
+.la::after{
+    content:"\003E";
+}
+.gg::before{
+    content:"(";
+}
+.gg::after{
+    content:")";
+}
+
+
+.df{
+    font-size: 105%;
+    margin-top: 0.5em;
+}
+.l{
+
+}
+.subse1{
+    display:block;
+}
+.collo{
+    font-style: normal;
+}
+.sup{
+    font-weight: normal;
+    font-size:0.6em;
+    vertical-align:top;
+    color:#795548;
+    font-family: sans-serif;
+}
+.phmk{
+    color:#262626;
+}
+
+/*--------------------*/
+.roma {font-weight:bold; 
+background-color:GAINSBORO; 
+display:block; 
+display: table-cell;}.
+.table {display:table;}
+
+
+.hw {font-size:120%;
+font-weight:bold;}
+
+.roma {font-weight:bold;background-color:GAINSBORO;/* display: none; */display: table-cell;}
+.table {display:table;font-size: 105%;;margin-top: 0.5em;}
+.num {display:table-cell;}
+.line {display:table-cell; padding-left:0.25em;}
+.ex {color: #369;display: block;}
+.ex::before {
+}
+.ex_c::after {
+	content: "\00A";
+    white-space: pre ;
+}
+.ex_c {display:inline;color: #757575;margin-bottom: 0.2em; */}
+.phmk {color: #003377; font-size:90%; display: none;}
+.phrase {}
+.tag2 {color: #8f0610 !important;}
+.tag3 {
+
+    font-style:italic;
+    font-weight:bolder;
+    color: #8f0610 !important;
+
+    }
+.tag4 {color:#DDAA00;color: #8f0610 !important;}
+hr.hr_1 {margin:0.5em 0; border:solid 1.5px Navy;border-style:dashed none none none;}
+sup {font-size:70%; font-family:arial;}
+sub {font-size:70%; font-family:arial;}
+.tag1{/* color: green; */}
+span.ex, .ex_c{
+
+    }
+
+
+
+/***--------------------*/
+.ex::before {
+    content: "•";
+    padding-right: 0.2em;
+    }
+
+    se2 .ge::after{
+    content: "\3011";
+}
+
+
+/****----*/
+span.lg {
+    color: #8f0610 !important;
+}
+
+span.lg:before {
+    content: "<" !important;
+    color: #8f0610 !important;
+}
+
+span.lg:after {
+     content: ">"; 
+    color: #8f0610 !important;
+}
+
+/****--------------------*/
+.se2 >.reg:before {
+    content: "<";
+    color: #8f0610 !important;
+}
+
+.se2 >.reg:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+.phrase >.reg:before {
+    content: "<";
+    color: #8f0610 !important;
+}
+
+.phrase >.reg:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+/*--------------------*/
+
+
+.se2 >.sj:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.se2 >.sj:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+.phrase >.sj:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.phrase >.sj:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+/*--------------------*/
+
+.se2 >.ge:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.se2 >.ge:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+.phrase >.ge:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.phrase >.ge:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+/***--------------------*/
+
+.se2 >.gg:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.se2 >.gg:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+.phrase >.gg:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.phrase >.gg:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+/*******151555555555555555555555*/
+/****--------------------*/
+.inf >.reg:before {
+    content: "<";
+    color: #8f0610 !important;
+}
+
+.inf >.reg:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+.inf >.reg:before {
+    content: "<";
+    color: #8f0610 !important;
+}
+
+.inf >.reg:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+/*--------------------*/
+
+
+.inf >.sj:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.inf >.sj:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+.inf >.sj:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.inf >.sj:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+/*--------------------*/
+
+.se2 >.ge:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.se2 >.ge:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+.phrase >.ge:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.phrase >.ge:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+/***--------------------*/
+
+.se2 >.gg:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.se2 >.gg:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+.phrase >.gg:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.phrase >.gg:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+
+/****----*/
+span.lg {
+    color: #8f0610 !important;
+}
+
+span.lg:before {
+    content: "<" !important;
+    color: #8f0610 !important;
+}
+
+span.lg:after {
+     content: ">"; 
+    color: #8f0610 !important;
+}
+
+/****--------------------*/
+.se2 >.reg:before {
+    content: "<";
+    color: #8f0610 !important;
+}
+
+.se2 >.reg:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+.phrase >.reg:before {
+    content: "<";
+    color: #8f0610 !important;
+}
+
+.phrase >.reg:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+/*--------------------*/
+
+
+.se2 >.sj:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.se2 >.sj:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+.phrase >.sj:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.phrase >.sj:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+/*--------------------*/
+
+.se2 >.ge:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.se2 >.ge:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+.phrase >.ge:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.phrase >.ge:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+/***--------------------*/
+
+.se2 >.gg:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.se2 >.gg:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+.phrase >.gg:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.phrase >.gg:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+
+
+/****--------------------*/
+.inf >.reg:before {
+    content: "<";
+    color: #8f0610 !important;
+}
+
+.inf >.reg:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+.inf >.reg:before {
+    content: "<";
+    color: #8f0610 !important;
+}
+
+.inf >.reg:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+/*--------------------*/
+
+
+.inf >.sj:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.inf >.sj:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+.inf >.sj:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.inf >.sj:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+/*--------------------*/
+
+.se2 >.ge:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.se2 >.ge:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+.phrase >.ge:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.phrase >.ge:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+/***--------------------*/
+
+.se2 >.gg:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.se2 >.gg:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+.phrase >.gg:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.phrase >.gg:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+
+
+.posg+.reg:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+
+.posg+.reg::before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+
+
+.se1 .df .reg:after {
+    content: ">";
+    color: #8f0610 !important;
+}
+
+.se1 .df .reg:before {
+    content: "<";
+    color: #8f0610 !important;
+} 
+
+.se1 {
+    padding-bottom: 0.2em;
+}
+
+.hg {
+    margin: 0.3em 0;
+}
+
+.posg {
+    margin-top: 0.3em;
+}
